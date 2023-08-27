@@ -1,0 +1,4 @@
+[workspace]
+members = [
+    "src/deploy_multiple_canisters_from_a_seed_canister_backend",
+]
