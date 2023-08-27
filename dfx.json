@@ -1,19 +1,10 @@
 {
   "version": 1,
   "canisters": {
-    "deploy_multiple_canisters_from_a_seed_canister_backend": {
+    "backend": {
       "type": "rust",
-      "package": "deploy_multiple_canisters_from_a_seed_canister_backend",
-      "candid": "src/deploy_multiple_canisters_from_a_seed_canister_backend/deploy_multiple_canisters_from_a_seed_canister_backend.did"
-    },
-    "deploy_multiple_canisters_from_a_seed_canister_frontend": {
-      "type": "assets",
-      "source": [
-        "src/deploy_multiple_canisters_from_a_seed_canister_frontend/assets"
-      ],
-      "dependencies": [
-        "deploy_multiple_canisters_from_a_seed_canister_backend"
-      ]
+      "package": "backend",
+      "candid": "src/backend/backend.did"
     }
   },
   "defaults": {
